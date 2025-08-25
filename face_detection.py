@@ -5,7 +5,7 @@ import time
 cap = cv2.VideoCapture(0)
 cap.set(3, 1280)
 cap.set(4, 720)
-
+# test
 mpface = mp.solutions.face_detection
 face = mpface.FaceDetection()
 
